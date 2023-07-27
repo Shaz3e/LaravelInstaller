@@ -89,8 +89,8 @@ Register the package with laravel in `config/app.php` under `providers` with the
 
 ## Contributing
 
-* If you have any suggestions please let me know : https://github.com/RachidLaasri/LaravelInstaller/pulls.
-* Please help us provide more languages for this awesome package please send a pull request https://github.com/RachidLaasri/LaravelInstaller/pulls.
+* If you have any suggestions please let me know : https://github.com/Shaz3e/LaravelInstaller/pulls.
+* Please help us provide more languages for this awesome package please send a pull request https://github.com/Shaz3e/LaravelInstaller/pulls.
 
 ## Help
 
@@ -117,3 +117,6 @@ Register the package with laravel in `config/app.php` under `providers` with the
 ## License
 
 Laravel Web Installer is licensed under the MIT license. Enjoy!
+
+## Credit
+[Rashid Laasri](https://github.com/rashidlaasri/LaravelInstaller/)
