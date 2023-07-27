@@ -1,4 +1,6 @@
-# Laravel Web Installer | A Web Installer [Package](https://packagist.org/packages/rachidlaasri/laravel-installer)
+# Laravel Web Installer | A Web Installer [Package](https://packagist.org/packages/shaz3e/laravelinstaller)
+
+## All credit for this repository is for (rashidlaasri/LaravelInstaller)[https://github.com/rashidlaasri/LaravelInstaller] his sponsership will remain active to this repository always
 
 [![Total Downloads](http://poser.pugx.org/shaz3e/laravelinstaller/downloads)](https://packagist.org/packages/shaz3e/laravelinstaller)
 [![Latest Stable Version](http://poser.pugx.org/shaz3e/laravelinstaller/v)](https://packagist.org/packages/shaz3e/laravelinstaller)
