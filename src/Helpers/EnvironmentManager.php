@@ -100,7 +100,8 @@ class EnvironmentManager
         'APP_KEY='.'base64:'.base64_encode(Str::random(32))."\n".
         'APP_DEBUG='.$request->app_debug."\n".
         'APP_LOG_LEVEL='.$request->app_log_level."\n".
-        'APP_URL='.$request->app_url."\n\n".
+        'APP_URL='.$request->app_url."\n".
+        'ASSET_URL='.'/public'."\n\n".
         'DB_CONNECTION='.$request->database_connection."\n".
         'DB_HOST='.$request->database_hostname."\n".
         'DB_PORT='.$request->database_port."\n".
@@ -119,7 +120,9 @@ class EnvironmentManager
         'MAIL_PORT='.$request->mail_port."\n".
         'MAIL_USERNAME='.$request->mail_username."\n".
         'MAIL_PASSWORD='.$request->mail_password."\n".
-        'MAIL_ENCRYPTION='.$request->mail_encryption."\n\n".
+        'MAIL_ENCRYPTION='.$request->mail_encryption."\n".
+        'MAIL_FROM_ADDRESS='.$request->mail_from_addres."\n".
+        'MAIL_FROM_NAME='.$request->mail_from_name."\n\n".
         'PUSHER_APP_ID='.$request->pusher_app_id."\n".
         'PUSHER_APP_KEY='.$request->pusher_app_key."\n".
         'PUSHER_APP_SECRET='.$request->pusher_app_secret;

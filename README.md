@@ -37,7 +37,7 @@ The current features are :
 1. From your projects root folder in terminal run:
 
 ```bash
-    composer require shaz3e/laravel-installer
+composer require shaz3e/laravelinstaller
 ```
 
 2. Register the package
