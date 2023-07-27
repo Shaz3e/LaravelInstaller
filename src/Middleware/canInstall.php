@@ -1,6 +1,6 @@
 <?php
 
-namespace DiligentCreators\LaravelInstaller\Middleware;
+namespace Shaz3e\LaravelInstaller\Middleware;
 
 use Closure;
 use Redirect;

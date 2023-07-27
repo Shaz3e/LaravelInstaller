@@ -1,5 +1,4 @@
 <?php
-use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'install', 'as' => 'LaravelInstaller::', 'namespace' => 'RachidLaasri\LaravelInstaller\Controllers', 'middleware' => ['web', 'install']], function () {
     Route::get('/', [

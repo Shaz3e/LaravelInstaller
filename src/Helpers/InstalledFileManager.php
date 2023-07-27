@@ -1,6 +1,6 @@
 <?php
 
-namespace DiligentCreators\LaravelInstaller\Helpers;
+namespace Shaz3e\LaravelInstaller\Helpers;
 
 class InstalledFileManager
 {

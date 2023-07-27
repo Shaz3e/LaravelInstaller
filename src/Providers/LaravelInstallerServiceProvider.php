@@ -1,11 +1,11 @@
 <?php
 
-namespace DiligentCreators\LaravelInstaller\Providers;
+namespace Shaz3e\LaravelInstaller\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use DiligentCreators\LaravelInstaller\Middleware\canInstall;
-use DiligentCreators\LaravelInstaller\Middleware\canUpdate;
+use Shaz3e\LaravelInstaller\Middleware\canInstall;
+use Shaz3e\LaravelInstaller\Middleware\canUpdate;
 
 class LaravelInstallerServiceProvider extends ServiceProvider
 {
