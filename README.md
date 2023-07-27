@@ -31,6 +31,7 @@ The current features are :
 ## Requirements
 
 * [Laravel 5.1, 5.2, 5.3, 5.4, or 5.5+](https://laravel.com/docs/installation)
+* [Tested on Laravel v10.10](https://laravel.com/docs/10.x)
 
 ## Installation
 
@@ -57,7 +58,7 @@ Register the package with laravel in `config/app.php` under `providers` with the
 3. Publish the packages views, config file, assets, and language files by running the following from your projects root folder:
 
 ```bash
-	php artisan vendor:publish --tag=laravelinstaller
+    php artisan vendor:publish --tag=laravelinstaller
 ```
 
 ## Routes
