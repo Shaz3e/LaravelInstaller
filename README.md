@@ -39,7 +39,7 @@ The current features are :
 1. From your projects root folder in terminal run:
 
 ```bash
-    composer require rachidlaasri/laravel-installer
+    composer require shaz3e/laravelinstaller
 ```
 
 2. Register the package
@@ -52,7 +52,7 @@ Register the package with laravel in `config/app.php` under `providers` with the
 
 ```php
 	'providers' => [
-	    RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+	    Shaz3e\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 	];
 ```
 
