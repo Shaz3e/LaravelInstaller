@@ -1,8 +1,8 @@
 # Laravel Web Installer | A Web Installer [Package](https://packagist.org/packages/rachidlaasri/laravel-installer)
 
-[![Total Downloads](https://poser.pugx.org/rachidlaasri/laravel-installer/d/total.svg)](https://packagist.org/packages/rachidlaasri/laravel-installer)
-[![Latest Stable Version](https://poser.pugx.org/rachidlaasri/laravel-installer/v/stable.svg)](https://packagist.org/packages/rachidlaasri/laravel-installer)
-[![License](https://poser.pugx.org/rachidlaasri/laravel-installer/license.svg)](https://packagist.org/packages/rachidlaasri/laravel-installer)
+[![Total Downloads](http://poser.pugx.org/shaz3e/laravelinstaller/downloads)](https://packagist.org/packages/shaz3e/laravelinstaller)
+[![Latest Stable Version](http://poser.pugx.org/shaz3e/laravelinstaller/v)](https://packagist.org/packages/shaz3e/laravelinstaller)
+[![License](http://poser.pugx.org/shaz3e/laravelinstaller/license)](https://packagist.org/packages/shaz3e/laravelinstaller)
 
 - [About](#about)
 - [Requirements](#requirements)
@@ -37,7 +37,7 @@ The current features are :
 1. From your projects root folder in terminal run:
 
 ```bash
-    composer require rachidlaasri/laravel-installer
+    composer require shaz3e/laravel-installer
 ```
 
 2. Register the package
@@ -50,7 +50,7 @@ Register the package with laravel in `config/app.php` under `providers` with the
 
 ```php
 	'providers' => [
-	    RachidLaasri\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+	    Shaz3e\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
 	];
 ```
 
