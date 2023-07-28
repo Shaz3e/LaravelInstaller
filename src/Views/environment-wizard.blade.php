@@ -405,7 +405,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('mail_port') ? ' has-error ' : '' }}">
                             <label for="mail_port">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_port_label') }}</label>
-                            <input type="number" name="mail_port" id="mail_port" value="2525" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_port_placeholder') }}" />
+                            <input type="number" name="mail_port" id="mail_port" value="587" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_port_placeholder') }}" />
                             @if ($errors->has('mail_port'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
@@ -415,7 +415,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('mail_username') ? ' has-error ' : '' }}">
                             <label for="mail_username">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_username_label') }}</label>
-                            <input type="text" name="mail_username" id="mail_username" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_username_placeholder') }}" />
+                            <input type="text" name="mail_username" id="mail_username" value="" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_username_placeholder') }}" />
                             @if ($errors->has('mail_username'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
@@ -425,7 +425,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('mail_password') ? ' has-error ' : '' }}">
                             <label for="mail_password">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_password_label') }}</label>
-                            <input type="text" name="mail_password" id="mail_password" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_password_placeholder') }}" />
+                            <input type="text" name="mail_password" id="mail_password" value="" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_password_placeholder') }}" />
                             @if ($errors->has('mail_password'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
@@ -435,7 +435,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('mail_encryption') ? ' has-error ' : '' }}">
                             <label for="mail_encryption">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_encryption_label') }}</label>
-                            <input type="text" name="mail_encryption" id="mail_encryption" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_encryption_placeholder') }}" />
+                            <input type="text" name="mail_encryption" id="mail_encryption" value="ssl" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_encryption_placeholder') }}" />
                             @if ($errors->has('mail_encryption'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
@@ -445,7 +445,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('mail_from_address') ? ' has-error ' : '' }}">
                             <label for="mail_from_address">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_label') }}</label>
-                            <input type="text" name="mail_from_address" id="mail_from_address" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_placeholder') }}" />
+                            <input type="text" name="mail_from_address" id="mail_from_address" value="" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_placeholder') }}" />
                             @if ($errors->has('mail_from_address'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
@@ -455,7 +455,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('mail_from_name') ? ' has-error ' : '' }}">
                             <label for="mail_from_name">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_name_label') }}</label>
-                            <input type="text" name="mail_from_name" id="mail_from_name" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_name_placeholder') }}" />
+                            <input type="text" name="mail_from_name" id="mail_from_name" value="" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_name_placeholder') }}" />
                             @if ($errors->has('mail_from_name'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
