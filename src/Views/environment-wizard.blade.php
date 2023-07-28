@@ -443,15 +443,13 @@
                                 </span>
                             @endif
                         </div>
-
-                        
-                        <div class="form-group {{ $errors->has('mail_from_addres') ? ' has-error ' : '' }}">
-                            <label for="mail_from_addres">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_addres_label') }}</label>
-                            <input type="text" name="mail_from_addres" id="mail_from_addres" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_addres_placeholder') }}" />
-                            @if ($errors->has('mail_from_addres'))
+                        <div class="form-group {{ $errors->has('mail_from_address') ? ' has-error ' : '' }}">
+                            <label for="mail_from_address">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_label') }}</label>
+                            <input type="text" name="mail_from_address" id="mail_from_address" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_placeholder') }}" />
+                            @if ($errors->has('mail_from_address'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
-                                    {{ $errors->first('mail_from_addres') }}
+                                    {{ $errors->first('mail_from_address') }}
                                 </span>
                             @endif
                         </div>
@@ -465,7 +463,6 @@
                                 </span>
                             @endif
                         </div>
-
                     </div>
                 </div>
                 <div class="block margin-bottom-2">
