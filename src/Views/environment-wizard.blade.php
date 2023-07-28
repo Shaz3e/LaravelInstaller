@@ -127,6 +127,8 @@
                     @endif
                 </div>
 
+                <input type="hidden" name="asset_url" value="/public">
+
                 <div class="buttons">
                     <button class="button" onclick="showDatabaseSettings();return false">
                         {{ trans('installer_messages.environment.wizard.form.buttons.setup_database') }}
@@ -441,13 +443,15 @@
                                 </span>
                             @endif
                         </div>
-                        <div class="form-group {{ $errors->has('mail_from_address') ? ' has-error ' : '' }}">
-                            <label for="mail_from_address">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_label') }}</label>
-                            <input type="text" name="mail_from_address" id="mail_from_address" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_address_placeholder') }}" />
-                            @if ($errors->has('mail_from_address'))
+
+                        
+                        <div class="form-group {{ $errors->has('mail_from_addres') ? ' has-error ' : '' }}">
+                            <label for="mail_from_addres">{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_addres_label') }}</label>
+                            <input type="text" name="mail_from_addres" id="mail_from_addres" value="null" placeholder="{{ trans('installer_messages.environment.wizard.form.app_tabs.mail_from_addres_placeholder') }}" />
+                            @if ($errors->has('mail_from_addres'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
-                                    {{ $errors->first('mail_from_address') }}
+                                    {{ $errors->first('mail_from_addres') }}
                                 </span>
                             @endif
                         </div>
@@ -457,10 +461,11 @@
                             @if ($errors->has('mail_from_name'))
                                 <span class="error-block">
                                     <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
-                                    {{ $errors->first('mail_from_address') }}
+                                    {{ $errors->first('mail_from_name') }}
                                 </span>
                             @endif
                         </div>
+
                     </div>
                 </div>
                 <div class="block margin-bottom-2">

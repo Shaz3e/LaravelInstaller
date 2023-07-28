@@ -4,10 +4,6 @@
     {{ trans('installer_messages.welcome.templateTitle') }}
 @endsection
 
-@section('title')
-    {{ trans('installer_messages.welcome.title') }}
-@endsection
-
 @section('container')
     <p class="text-center">
       {{ trans('installer_messages.welcome.message') }}

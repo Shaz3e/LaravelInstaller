@@ -9,6 +9,8 @@
         <link rel="icon" type="image/png" href="{{ asset('installer/img/favicon/favicon-32x32.png') }}" sizes="32x32"/>
         <link rel="icon" type="image/png" href="{{ asset('installer/img/favicon/favicon-96x96.png') }}" sizes="96x96"/>
         <link href="{{ asset('installer/css/style.min.css') }}" rel="stylesheet"/>
+        {{-- Customiz CSS --}}
+        <link href="{{ asset('installer/css/customize.css') }}" rel="stylesheet" />
         @yield('style')
         <script>
             window.Laravel = <?php echo json_encode([
@@ -20,7 +22,7 @@
         <div class="master">
             <div class="box">
                 <div class="header">
-                    <h1 class="header__title">@yield('title')</h1>
+                <img src="{{ asset('logos/fx-logo.png') }}" />
                 </div>
                 <ul class="step">
                     <li class="step__divider"></li>
