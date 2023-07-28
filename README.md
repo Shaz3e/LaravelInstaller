@@ -40,7 +40,7 @@ The current features are :
 1. From your projects root folder in terminal run:
 
 ```bash
-	composer require shaz3e/laravelinstaller
+composer require shaz3e/laravelinstaller
 ```
 
 2. Register the package
@@ -52,15 +52,15 @@ Uses package auto discovery feature, no need to edit the `config/app.php` file.
 Register the package with laravel in `config/app.php` under `providers` with the following:
 
 ```php
-	'providers' => [
-	    Shaz3e\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
-	];
+'providers' => [
+    Shaz3e\LaravelInstaller\Providers\LaravelInstallerServiceProvider::class,
+];
 ```
 
 3. Publish the packages views, config file, assets, and language files by running the following from your projects root folder:
 
 ```bash
-    php artisan vendor:publish --tag=laravelinstaller
+php artisan vendor:publish --tag=laravelinstaller
 ```
 
 ## Routes
