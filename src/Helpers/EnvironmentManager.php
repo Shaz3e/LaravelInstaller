@@ -100,7 +100,7 @@ class EnvironmentManager
         'APP_KEY='.'base64:'.base64_encode(Str::random(32))."\n".
         'APP_DEBUG='.$request->app_debug."\n".
         'APP_LOG_LEVEL='.$request->app_log_level."\n".
-        'APP_URL='.$request->app_url."\n".
+        'APP_URL='.rtrim($request->app_url, '/')."\n".
         'ASSET_URL='.'/public'."\n\n".
         'DB_CONNECTION='.$request->database_connection."\n".
         'DB_HOST='.$request->database_hostname."\n".
